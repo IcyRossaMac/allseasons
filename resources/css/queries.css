@@ -123,8 +123,8 @@
     .sticky .mobile-nav-icon i {
         color: #555;
     }
-    /* NAV ENDS*/
 
+    /* NAV ENDS*/
     .long-copy {
         width: 100%;
         margin-left: 0;
@@ -155,6 +155,10 @@
 
     .map {
         height: 450px;
+    }
+
+    .office {
+        margin-bottom: 50px;
     }
 }
 

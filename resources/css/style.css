@@ -485,13 +485,17 @@ cite img {
     margin: 25px 0 20px 0;
 }
 
+.office h4 {
+    padding: 0 15px;
+}
+
 ul.office-details {
     list-style: none;
-    padding: 0;
+    padding: 0 15px;
 }
 
 ul.office-details li {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     margin-top: 12px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -499,19 +503,9 @@ ul.office-details li {
 }
 
 ul.office-details li i {
-    font-size: 20px;
+    font-size: 28px;
     width: 45px;
-}
-
-#contact-left ul.social-list li a {
-    color: #212226;
-    border: 1px solid #212226;
-    text-align: center;
-}
-
-#contact-left ul.social-list li a:hover {
-    color: #FFFFFF;
-    border: transparent;
+    color: #d1aa26;
 }
 
 /* Contact Right */
@@ -536,7 +530,7 @@ ul.office-details li i {
 }
 
 #contact-right form .form-control {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     padding: 10px 15px;
     font-size: 12px;
     line-height: 24px;
