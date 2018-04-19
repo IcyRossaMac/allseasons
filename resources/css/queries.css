@@ -64,11 +64,23 @@
         padding: 30px 0;
     }
 
-    .row,
-    .hero-text-box {
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 145%;
+    }
+
+    h2:after {
+        margin-top: 20px;
+    }
+
+    .row {
         padding: 0 4%;
     }
 
+    /* NAV */
     .main-nav {
         display: none;
     }
@@ -111,29 +123,20 @@
     .sticky .mobile-nav-icon i {
         color: #555;
     }
+    /* NAV ENDS*/
 
     .long-copy {
         width: 100%;
         margin-left: 0;
+        margin-bottom: 0 !important;
     }
 
-    h1 {
-        font-size: 180%;
+    #services .col-md-3 {
+        padding: 0 0;
     }
 
-    h2 {
-        font-size: 145%;
-    }
-
-    h2:after {
-        margin-top: 20px;
-    }
-
-    .btn-app img {
-        height: 50px;
-        width: auto;
-        margin-right: 0;
-        margin-left: 1%;
+    .icon-big {
+        margin-bottom: -20px;
     }
 
     .belfast-showcase li {
@@ -142,19 +145,17 @@
         width: 50%;
     }
 
-    /*.map {*/
-    /*width: 100%;*/
-    /*height: 300px;*/
-    /*position: relative;*/
-    /*z-index: 0;*/
-    /*}*/
-    /*.map-box {*/
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*padding-top: 30px;*/
-    /*}*/
+    #location h2 {
+        margin-top: 30px;
+    }
 
+    .location-stat:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .map {
+        height: 450px;
+    }
 }
 
 /* Small Phones 0 to 480 pixels */
